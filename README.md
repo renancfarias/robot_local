@@ -9,3 +9,5 @@ Artigos sobre localização:
 3) Algoritmo de monte carlo: https://www.mathworks.com/help/nav/ug/monte-carlo-localization-algorithm.html
 
 4) https://github.com/farzingkh/Monte-Carlo-Localization
+
+5) fusão de sensores: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.324.3069&rep=rep1&type=pdf

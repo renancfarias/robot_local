@@ -14,4 +14,4 @@ Artigos sobre localização:
 
 6) https://www.cs.bham.ac.uk/~msk/pdf/kopicki2004report2.pdf
 
-7) Exemplos de coigo para leitura de senores: https://www.stereolabs.com/docs/ros/sensor-data/
+7) Exemplos de código para leitura de senores: https://www.stereolabs.com/docs/ros/sensor-data/

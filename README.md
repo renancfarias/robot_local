@@ -23,4 +23,6 @@ Artigos sobre localização:
 10) Multi-Sensor Perceptual System for Mobile Robot and Sensor Fusion-based Localization - https://arxiv.org/pdf/1611.07114.pdf
 
 11) http://www.coep.ufrj.br/~eduardo/papers/icra_lnhw_03.pdf
+
+12) https://www.youtube.com/watch?v=mszCie9bxwo
 # Medida da porta principal: 1,65 m

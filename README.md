@@ -16,4 +16,5 @@ Artigos sobre localização:
 
 7) Exemplos de código para leitura de senores: https://www.stereolabs.com/docs/ros/sensor-data/
 
+8) https://automaticaddison.com/sensor-fusion-using-the-ros-robot-pose-ekf-package/
 # Medida da porta principal: 1,65 m

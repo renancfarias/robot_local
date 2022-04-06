@@ -25,4 +25,6 @@ Artigos sobre localização:
 11) http://www.coep.ufrj.br/~eduardo/papers/icra_lnhw_03.pdf
 
 12) https://www.youtube.com/watch?v=mszCie9bxwo
+
+13) https://github.com/tomha85/Practice-KF
 # Medida da porta principal: 1,65 m

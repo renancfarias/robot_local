@@ -19,4 +19,6 @@ Artigos sobre localização:
 8) https://automaticaddison.com/sensor-fusion-using-the-ros-robot-pose-ekf-package/
 
 9) https://mdpi-res.com/d_attachment/sensors/sensors-22-00305/article_deploy/sensors-22-00305.pdf
+
+10) Multi-Sensor Perceptual System for Mobile Robot and Sensor Fusion-based Localization - https://arxiv.org/pdf/1611.07114.pdf
 # Medida da porta principal: 1,65 m

@@ -29,4 +29,6 @@ Artigos sobre localização:
 13) https://github.com/tomha85/Practice-KF
 
 14) https://eigen.tuxfamily.org/index.php?title=Main_Page 
+
+15) https://github.com/Robotics-lessons/term2-localization-lab 
 # Medida da porta principal: 1,65 m

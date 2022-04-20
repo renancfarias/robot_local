@@ -1,5 +1,24 @@
 # robotica
 
+## Medida da porta principal: 1,65 m
+
+## Comandos úteis
+
+Criar um pacote:
+`catkin_create_pkg <package_name> [depend1] [depend2] [depend3]`
+
+Listar tópicos:
+`rostopic list`
+
+Ver tipo de mensagem de um tópico:
+`rostopic type [topico]`
+
+Ver datelhes de uma mensagem:
+`rosmsg show [tipo_da_msg]`
+
+Ver mensagens publicadas por um nó:
+`rostopic echo [topico]`
+
 Artigos sobre localização: 
 
 1) /https://onlinelibrary.wiley.com/doi/full/10.1002/047134608X.W8318
@@ -33,4 +52,4 @@ Artigos sobre localização:
 15) https://github.com/Robotics-lessons/term2-localization-lab 
 
 16) https://www.cs.cmu.edu/~rasc/Download/AMRobots5.pdf
-# Medida da porta principal: 1,65 m
+

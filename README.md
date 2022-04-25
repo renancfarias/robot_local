@@ -1,25 +1,35 @@
-# robotica
+# Robótica
 
 ## Medida da porta principal: 1,65 m
 
 ## Comandos úteis
 
 Criar um pacote:
-`catkin_create_pkg <package_name> [depend1] [depend2] [depend3]`
+<pre>
+catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+</pre>
 
 Listar tópicos:
-`rostopic list`
+<pre>
+rostopic list
+</pre>
 
 Ver tipo de mensagem de um tópico:
-`rostopic type [topico]`
+<pre>
+rostopic type [topico]
+</pre>
 
 Ver datelhes de uma mensagem:
-`rosmsg show [tipo_da_msg]`
+<pre>
+rosmsg show [tipo_da_msg]
+<pre>
 
 Ver mensagens publicadas por um nó:
-`rostopic echo [topico]`
+<pre>
+rostopic echo [topico]
+</pre>
 
-Artigos sobre localização: 
+## Artigos sobre localização: 
 
 1) /https://onlinelibrary.wiley.com/doi/full/10.1002/047134608X.W8318
                            

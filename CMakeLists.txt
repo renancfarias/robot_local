@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(beginner_tutorials)
+project(robot_local)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -145,8 +145,8 @@ add_executable(listener src/listener.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(talker beginner_tutorials_generate_messages_cpp)
-add_dependencies(listener beginner_tutorials_generate_messages_cpp)
+add_dependencies(talker robot_local_generate_messages_cpp)
+add_dependencies(listener robot_local_generate_messages_cpp)
 
 
 ## Specify libraries to link a library or executable target against

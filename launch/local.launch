@@ -1,0 +1,11 @@
+<launch>
+    <arg name="map_file" value="$(find robot_local)/map/map.yaml"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)" output="screen"> 
+    </node>
+
+    <arg name="laser_topic" value="my_robot/laser/scan"/>
+    <node pkg="amcl" type="amcl" name="amcl" args="scan:=$(arg laser_topic)" output="screen">
+    <rosparam param="base_frame_id">carcaca</rosparam>
+    </node>
+</launch>
+

@@ -22,7 +22,7 @@ rostopic type [topico]
 Ver datelhes de uma mensagem:
 <pre>
 rosmsg show [tipo_da_msg]
-<pre>
+</pre>
 
 Ver mensagens publicadas por um nó:
 <pre>

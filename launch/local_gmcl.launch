@@ -10,7 +10,6 @@
     <arg name="initial_pose_a" default="0.0"/>
     <node pkg="gmcl" type="gmcl" name="gmcl" output="screen" args="scan:=$(arg rplidar_topic)">
   <!-- Publish scans from best pose at a max of 10 Hz -->
-        <!-- <param name="save_pose_rate" value="25"/> -->
         <param name="use_optimal_filter" value="true"/>
         <param name="use_intelligent_filter" value="true"/>
         <param name="use_self_adaptive" value="true"/> 
@@ -33,7 +32,7 @@
         <param name="initial_pose_a"            value="$(arg initial_pose_a)"/>
         
         <param name="transform_tolerance" value="0.1" />
-        <param name="gui_publish_rate" value="25,0"/>
+        <param name="gui_publish_rate" value="25.0"/>
         <param name="laser_max_beams" value="30"/>
         <param name="min_particles" value="500"/>
         <param name="max_particles" value="2000"/>

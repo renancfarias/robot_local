@@ -1,0 +1,36 @@
+<launch>
+    <arg name="map_file" value="$(find robot_local)/map/map.yaml"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)" output="screen"> 
+    </node>
+
+    <arg name="laser_topic" value="my_robot/laser/scan"/>
+    <node pkg="amcl" type="amcl" name="amcl" args="scan:=$(arg laser_topic)" output="screen">
+    <rosparam param="base_frame_id">carcaca</rosparam>
+    </node>
+
+    <!-- <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization_node" output="screen">
+    
+    <rosparam param="frequency">10</rosparam>
+    <param name="base_link_frame" value="carcaca"/>
+    <param name="two_d_mode" value="True"/>
+    <param name="imu0" value="imu"/>
+    <param name="odom0" value="odom"/>
+    <param name="pose0" value="gmcl_pose"/>
+    <rosparam param="odom0_config">[false,  false,  false,
+                                    false, false, false,
+                                    true,  true, false,
+                                    false, false, true,
+                                    false, false, false]</rosparam>
+    <rosparam param="imu0_config"> [false,  false,  false,
+                                    false, false, false,
+                                    false,  false, false,
+                                    false, false, true,
+                                    true, false, false]</rosparam>
+    <rosparam param="pose0_config"> [true,  true,  false,
+                                    false, false, false,
+                                    false,  false, false,
+                                    false, false, false,
+                                    false, false, false]</rosparam>
+    </node> -->
+</launch>
+
